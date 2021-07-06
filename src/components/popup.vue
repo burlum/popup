@@ -171,6 +171,9 @@ h6{
 .input-group{
     width:20vh;
 }
+.PayDiv,.TimeDiv{
+    font-size:1.5vh;
+}
 #popupForm{
     position: fixed;
     top: 0;
