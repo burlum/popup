@@ -26,8 +26,8 @@
             </div>
             <div class="Choose">
                 <h6>Что уменьшаем?</h6>
-                <div class="PayDiv">Платеж</div>
-                <div class="TimeDiv">Срок</div>
+                <div class="PayDiv"><p>Платеж</p></div>
+                <div class="TimeDiv"><p>Срок</p></div>
             </div>
             <div class="Accept">Добавить</div>
         </div>
@@ -212,10 +212,14 @@ h6{
 .PayDiv{
     background: linear-gradient(90deg, #fd5852, #e03534);
     color:white;
+    height:3.5vh;
+    line-height:2.5vh;
 }
 .TimeDiv{
     background:#EEF0F2;
     color:#000000;
+    height:3.5vh;
+    line-height:2.5vh;
 }
 .Accept{
     background: linear-gradient(90deg, #fd5852, #e03534);
